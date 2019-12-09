@@ -21,7 +21,11 @@ Once happy with an existing entity model it needs to move to current in order fo
 1.   Create a new branch named after the entity model. the name should follow the following scheme:
 
   current + *entity name*. for Shellfish this would look like currentShellfish, for start date currentStartDate this should be written in [Camel case](https://en.wikipedia.org/wiki/Camel_case)
-2.   Copy the entity in question from [/model/draft](/model/draft) to [/model/current](/model/current) do not make any changes to the file. If updates need to be made to the entity model make them in the draft folder before moving them. The pull request to move the entity model to current must also remove it from draft.
-3.   push your branch to origin if this was done locally.
-4.   Create a pull request to merge your changes into master adding at least one other member of the data team to the pull request as a reviewer.
-5.   Once the pull request has been approved by another member of the data team merge the request and delete the branch.
+
+2.  Copy the entity in question from [/model/draft](/model/draft) to [/model/current](/model/current) do not make any changes to the file. If updates need to be made to the entity model make them in the draft folder before moving them. The pull request to move the entity model to current must also remove it from draft.
+
+3.  push your branch to origin if this was done locally.
+
+4.  Create a pull request to merge your changes into master adding at least one other member of the data team to the pull request as a reviewer.
+
+5.  Once the pull request has been approved by another member of the data team merge the request and delete the branch.
