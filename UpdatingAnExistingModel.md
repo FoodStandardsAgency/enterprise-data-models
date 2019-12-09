@@ -6,9 +6,9 @@ Firstly it is important to note that once an entity model is current we can only
 
 In order to update a current entity model please do as follows:
 
-1.  create a new branch named after the entity model to be updated. You can only update one entity model per branch. The branch should be named as follows:
+1.  Create a new branch named after the entity model to be updated. You can only update one entity model per branch. The branch should be named as follows:
 
-    update + *entity name*. for Shellfish this would look like UpdateShellfish, for start date UpdateStartDate this should be written in [Camel case](https://en.wikipedia.org/wiki/Camel_case)
+    Update + *entity name*. for Shellfish this would look like UpdateShellfish, for start date UpdateStartDate this should be written in [Camel case](https://en.wikipedia.org/wiki/Camel_case)
 
 2.  Update the entity model in question within the branch. As said above you can change the contents of the file but not its meaning. You can also not change the name of the entity model in this way.
 
