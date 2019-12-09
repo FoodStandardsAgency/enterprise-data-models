@@ -20,7 +20,7 @@ Entity models in the draft folder can be updated as often as wanted both in term
 Once happy with an existing entity model it needs to move to current in order for it to be usable. This must be done using a pull request following the process bellow. In order for an entity model to be added to current it must have existed in drafts.
 1.   Create a new branch named after the entity model. the name should follow the following scheme:
 
-  current + *entity name*. for Shellfish this would look like currentShellfish, for start date currentStartDate this should be written in [Camel case](https://en.wikipedia.org/wiki/Camel_case)
+  current + *entity name*. for Shellfish this would look like CurrentShellfish, for start date CurrentStartDate this should be written in [Camel case](https://en.wikipedia.org/wiki/Camel_case)
 
 2.  Copy the entity in question from [/model/draft](/model/draft) to [/model/current](/model/current) do not make any changes to the file. If updates need to be made to the entity model make them in the draft folder before moving them. The pull request to move the entity model to current must also remove it from draft.
 
