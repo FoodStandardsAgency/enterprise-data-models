@@ -4,7 +4,7 @@ This Repository contains all of the entity models used within the Food Standards
 
 ### instructions
 please see the below files for instructions on how to:
-##### [create an entity model](/HowToCreateAnEntityModel.md)
+##### [Create an entity model](/HowToCreateAnEntityModel.md)
 ##### [Update an entity model](/UpdatingAnExistingModel.md)
 
 Pull requests and issues from both inside and outside of the FSA are welcomed.
