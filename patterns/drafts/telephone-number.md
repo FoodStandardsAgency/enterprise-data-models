@@ -9,7 +9,7 @@ has_children: false
 
 # Telephone Number
 
-This pattern was last updated 29/01/2020, this is version 0.xx
+This pattern was last updated 29/01/2020, this is version 1.0
 
 Pattern Created: 17/01/2020.
 
