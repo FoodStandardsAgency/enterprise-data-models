@@ -8,15 +8,15 @@ While date is a fundamental data type, and used in the FSA in the same way as ot
 
 ### Format
 
-At the FSA we only use the international standard for recording date and time, ISO 8601. You should use the extended format (which includes separators) to make dates more readable for users working with the database directly, this is the format which includes separators.
+At the FSA we only use the international standard for recording date and time, ISO 8601. You should use the extended format, including separators, to make dates more readable for users working with the database directly.
 
-#### Format for date only
+#### Format for dates
 
 When recording a date only, the format is `YYYY-MM-DD`.
 
 For example, 14 January 2020 is `2020-01-14`.
 
-#### Format for a date and time
+#### Format for a date and times
 
 When we need to record a time as well as a date, we should always record the coordinated universal time (UTC). This might be different from the local time, including Greenwich Mean Time or British Summer Time.
 
@@ -28,9 +28,9 @@ We may not always receive date and time data from third-parties to ISO 8601 stan
 
 ### Patterns for implementing dates and times in services
 
-The most common use for dates and times in our services is to record the beginning and end of when an activity applies to an establishment, or the existence of an item in a list.
+The most common use for dates and times in our services is to record the beginning and end of when an event happens or a change occurs.
 
-There are multiple patterns for achieving this in services, generally you should be able to achieve most things where recording something over time using a combination of the following;
+Services should be able to handle most eventualities by using the following:
 
 -   Start date
 -   End date
@@ -40,15 +40,15 @@ There are multiple patterns for achieving this in services, generally you should
 
 At the FSA, we use start date. When used as a field name it should be recorded as `start-date`, other names for the start of an event or record are unacceptable even when the business term is different.
 
-Your service can and should present the field by it's accepted domain name if that term is so well-established as to be canonical or it is that way in legislation or defined that way in policy, but field conventions need to remain consistent across services.
+Your service can and should present the field by it's accepted domain name if that term is so well-established in the legislation or policy of that domain, but field conventions need to remain consistent across services.
 
 ## End date
 
-We use end date to signify the end of an event or status. When used as a field name it should be recorded as `end-date`, other names for this field are unacceptable.
+We use end date to signify the end of an event. When used as a field name it should be recorded as `end-date`.
 
 Like start date, your service can present the field by it's accepted domain name if that term is canonical.
 
-## Change Date
+## Change date
 
 We use change date to signify a change to an event or record that does not change the nature of the item enough to justify giving the item an end date and creating a new item. For example if an entry for a school has an update to the head teacher field, it is still the same school thus the same item. However we needed to record a change to the item and the date the change occurred. When used as a field name it should be recorded as `change-date`, other names for this field are unacceptable
 
