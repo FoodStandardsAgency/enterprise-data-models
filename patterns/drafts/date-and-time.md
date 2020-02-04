@@ -57,9 +57,17 @@ We use change date to signify a change to an event or record that does not chang
 
 It is best practice to signify changes to a record using only start date and end date, with a new row for each material change. For example, we moved offices from Aviation House to Clive House in January 2018, which should be recorded in a service like this;
 
-| organisation | office | start-date | end-date |
-|--------------|--------|------------|---------|
-| FSA | Aviation House | 2010-04-01 | 2017-12-31 |
-| FSA | Clive House | 2018-01-01 ||
+| organisation | office | Capacity | start-date | end-date | change-date |
+|--------------|--------|----------|------------|----------|-------------|
+| FSA | Aviation House | 1000 | 2010-04-01 | 2017-12-31 ||
+| FSA | Clive House | 1200 | 2018-01-01 |||
 
 This format means that current status and point in time reporting are supported easily by using the correct query technique.
+
+However, some changes do not constitute a material change. In the above example lets change the capacity of clive house from 1200 to 1170 on the 1st of April 2020. This could be for many reasons. However it is still the same office. In this instance we would use the change date to show that the record has been updated.
+
+| organisation | office | Capacity | start-date | end-date | change-date |
+|--------------|--------|----------|------------|----------|-------------|
+| FSA | Aviation House | 1000 | 2010-04-01 | 2017-12-31 ||
+| FSA | Clive House | 1200 | 2018-01-01 |||
+| FSA | Clive House | 1170 | 2018-01-01 || 2020-04-01 |
