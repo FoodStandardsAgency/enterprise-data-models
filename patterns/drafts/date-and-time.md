@@ -1,10 +1,10 @@
 # Date and Time
 
-This pattern was last updated 21/01/2020, this is version 1.0
+This pattern was last updated 04/02/2020, this is version 1.0
 
 Pattern Created: 21/01/2020
 
-While date is a fundamental data type, and used in the FSA in the same way as other oganisations, we have a set of styles and best practices when working with dates in data for development teams to follow.
+While date is a fundamental data type, and used in the FSA in the same way as other organisations, we have a set of styles and best practices when working with dates in data for development teams to follow.
 
 ### Format
 
