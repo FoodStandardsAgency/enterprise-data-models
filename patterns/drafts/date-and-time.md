@@ -1,6 +1,6 @@
 # Date and Time
 
-This pattern was last updated 04/02/2020, this is version 1.0
+This pattern was last updated 04/02/2020, this is version 0.2
 
 Pattern Created: 21/01/2020
 
