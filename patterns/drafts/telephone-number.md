@@ -9,23 +9,25 @@ has_children: false
 
 # Telephone Number
 
-This pattern was last updated 29/01/2020, this is version 1.0
+This pattern was last updated 13/02/2020, this is version 1.0
 
 Pattern Created: 17/01/2020.
 
 Stable {: .label .label-green }
 
+## Description
+
 A telephone number is a sequence of digits used to connect to a fixed line or wireless device.  
 
-Telephone numbers should only be collected and stored if there is a genuine need
+Telephone numbers should only be collected and stored if there is a genuine need.
 
-Although it would be possible to validate entry of phone numbers or to split the storage of phone numbers into geographical and subscriber numbers the effort to do this may outweigh the current benefits for the FSA at present.
+Telephone numbers should not be split into geographical and subscriber numbers as there is little benefit.
 
-### Format
+## Field formats, data types, and patterns
 
-Telephone number should be stored as a string entry in a single field, in order to preserve leading zeroes and potential special characters used for international dialling codes and formatting (eg +, (), -).
+Telephone number should be stored as a string entry in a single field, in order to preserve leading zeros and potential special characters used for international dialling codes and formatting (eg +, (), -).
 
-A field length of 20 would allow for the following examples plus other international variants and spaces (guidelines within E.146 - International Telephone Formats would restrict to 15 characters for international numbers, 3 for country code and 12 for subscriber number, with all spaces and special characters removed (excluding '+' symbol for country code))
+A field length of 20 would allow for the following examples plus other international variants and spaces (guidelines within E.146 - International Telephone Formats would restrict to 15 characters for international numbers, 3 for country code and 12 for subscriber number, with all spaces and special characters removed (excluding '+' symbol for country code)).
 
 -   01xxx xxxxxx
 -   01xx xxx xxxx
@@ -33,7 +35,7 @@ A field length of 20 would allow for the following examples plus other internati
 -   01xx xx xxxxx
 -   +44 xxxx xxxx xxxx
 
-### Developers
+## Notes
 
 FSA use telephone numbers primarily to send alerts using the gov.uk Notify service.  Please see the relevant API documentation available through the reference below.
 
@@ -45,7 +47,7 @@ FSA use telephone numbers primarily to send alerts using the gov.uk Notify servi
 -   [International Trunk Prefix](https://en.wikipedia.org/wiki/Trunk_prefix)
 -   [Gov.UK.Notify service](https://www.notifications.service.gov.uk/features)
 
-#### Further reading
+### Further reading
 
 -   [GDS guidance re telephone numbers (currently experimental)](https://design-system.service.gov.uk/patterns/telephone-numbers/), this includes information on validation of telephone numbers
 -   [Guidance regarding autocompletion of fields](https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html)
