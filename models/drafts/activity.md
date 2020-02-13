@@ -1,8 +1,14 @@
-# Activity
+---
+layout: default
+title: Activity
+nav_order: xx
+has_children: false
+---
 
-This model was last updated on **23/01/2020**, this is version **0.2**
+This model was last updated on **04/02/2020**, this is version **0.2**
 
-The model is **experimental**. :alembic:
+Experimental
+{: .label .label-yellow }
 
 ##### Model created
 07/01/2020
@@ -62,16 +68,3 @@ Examples of Enrolment for official controls include;
 *   Registrations
 *   Register a Food Business (RaFB)
 *   Shellfish Farming and Harvesting
-
-
-#### Notes taken [to be deleted]
-an activity is the approved process of getting permission for an establishment to carry out certain action or business type in relation to food and feed.  
-Activities are things that food and feed businesses do
-approved activities process of getting permission for an establishment to carry out certain action or business type in relation to food and feed.
-registered activities they are administered activities that make regulated businesses run
-Activities are bound within a domain and scope.
-
-Where possible use some are defined by legislation, and regulation
-activities that happen across the food and feed businesses across the UK FSA and its working partners
-activities discharged by the FSA and CA to make regulatory and legislative system function
-2 fundamental

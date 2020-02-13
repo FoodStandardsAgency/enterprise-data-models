@@ -1,12 +1,28 @@
-# Scheme
+---
+layout: default
+title: Scheme
+nav_order: xx
+has_children: false
+---
 
-This model was last updated on **23/01/2020**, this is version **1.0** Category **experimental**
+This model was last updated on **04/02/2020**, this is version **0.2**
+
+Experimental
+{: .label .label-yellow }
 
 ##### Model created
 07/01/2020
 
 ### Description
 Food assurance schemes help to provide, competent authorities, businesses and consumers with guarantees that participants adhere to particular standards.
+
+### Related entities
+All Schemes will have an `Awarding Body`.
+
+Schemes will have an `enrolments` process.
+
+An `establishment` can enroll in multiple schemes.
+
 
 ### Unique Identifiers
 There are a number of identifiers for Scheme. The preferred unique identifier for Enrolment in the FSA is the Scheme-Id

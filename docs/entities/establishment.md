@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Establishment
-nav_order: 3
+nav_order: 1
 has_children: true
 parent: Entities
 categories: entity

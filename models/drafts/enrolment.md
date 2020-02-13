@@ -1,6 +1,14 @@
-# Enrolement
+---
+layout: default
+title: Enrolment
+nav_order: xx
+has_children: false
+---
 
-This model was last updated on **20/01/2020**, this is version **1.0** Category: **experimental**
+This model was last updated on **04/02/2020**, this is version **0.2**
+
+Experimental
+{: .label .label-yellow }
 
 ##### Model created
 07/01/2020

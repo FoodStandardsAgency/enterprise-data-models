@@ -4,7 +4,7 @@ has_children: false
 nav_order: 1
 ---
 
-# FSA data entities and patterns
+# FSA Data Entities and Patterns
 This repository organises our enterprise data models and data patterns designed by the Data Team for use by anyone in the Agency (or outside if you like 👍)
 
 We've also turned it into a GitHub pages site to make it easier to browse.
