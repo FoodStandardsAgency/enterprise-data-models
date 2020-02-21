@@ -2,7 +2,7 @@
 
 layout: default
 title: Telephone Number
-nav_order: 7
+nav_order: 3
 has_children: false
 parent: Patterns
 categories: pattern
@@ -10,13 +10,13 @@ categories: pattern
 ---
 
 # Telephone Number
-
 This pattern was last updated 13/02/2020, this is version 1.0
-
-Pattern Created: 17/01/2020.
 
 Stable
 {: .label .label-green }
+
+### Pattern created
+17/01/2020.
 
 ## Description
 
@@ -43,7 +43,6 @@ A field length of 20 would allow for the following examples plus other internati
 FSA use telephone numbers primarily to send alerts using the gov.uk Notify service.  Please see the relevant API documentation available through the reference below.
 
 ### References
-
 -   [International standards for telephone number formats](https://en.wikipedia.org/wiki/E.164)
 -   [International guidelines for presentation of telephone numbers](https://en.wikipedia.org/wiki/E.123)
 -   [UK telephone numbers](https://en.wikipedia.org/wiki/Telephone_numbers_in_the_United_Kingdom)
@@ -51,7 +50,6 @@ FSA use telephone numbers primarily to send alerts using the gov.uk Notify servi
 -   [Gov.UK.Notify service](https://www.notifications.service.gov.uk/features)
 
 ### Further reading
-
 -   [GDS guidance re telephone numbers (currently experimental)](https://design-system.service.gov.uk/patterns/telephone-numbers/), this includes information on validation of telephone numbers
 -   [Guidance regarding autocompletion of fields](https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html)
 -   [MojoLingo - Handling Phone Numbers: Best Practices for Developers](https://mojolingo.com/blog/2015/best-practices-handling-phone-numbers/)

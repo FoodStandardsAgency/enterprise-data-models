@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Operator
-nav_order: 1
+nav_order: 3
 has_children: false
-parent: Establishment
-grandparent: Entities
+parent: Entities
 categories: entity
 ---
 

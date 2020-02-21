@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Premises
-nav_order: 2
+nav_order: 4
 has_children: false
-parent: Establishment
-grandparent: Entities
+parent: Entities
 categories: entity
 ---
 

@@ -1,22 +1,25 @@
 ---
 layout: default
 title: Establishment
-nav_order: 1
-has_children: true
+nav_order: 2
+has_children: false
 parent: Entities
 categories: entity
 ---
 
 # Establishment
-This model was last updated on **12/02/2020**, this is version **0.2**
+This model was last updated on **19/02/2020**, this is version **0.2**
 
 Experimental
 {: .label .label-yellow }
 
-## Description
-Establishments are the central unit of enrolment within food and feed related legisation.
+### Model created
+10/02/2020
 
-An Establishment is a combination of two child entities; `Premises` and `Operator`. A change in either of these gives rise to a different establishment.
+## Description
+Establishments are the central unit of enrolment within food and feed related legislation.
+
+An Establishment is a combination of two child entities; [Premises](/enterprise-data-models/entities/premises.md) and [Operator](/enterprise-data-models/entities/operator.md). A change in either of these gives rise to a different establishment.
 
 Other changes, such as changes in establishment type or the mix of activities requiring registration or approval which it undertakes, do not create a new establishment, only modify an existing one.
 
@@ -43,7 +46,7 @@ In addition, the establishment entity should identify the specific combination o
 ## Contextual properties
 Approved establishments are approved to undertake specific activities laid out in legislation, please see the [approved activities code list](https://data.food.gov.uk/codes/business/approved-food-establishments/_activities).
 
-Approved establishments are also identified in the system that handles approvals by their `Approval Number`. 
+Approved establishments are also identified in the system that handles approvals by their `Approval Number`.
 
 Registered establishments and some approved activities are handled by other [competent authorities](https://data.food.gov.uk/codes/reference-number/_authority).
 

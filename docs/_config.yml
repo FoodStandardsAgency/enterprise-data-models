@@ -2,3 +2,4 @@ title: "FSA data entities and patterns"
 remote_theme: pmarsceill/just-the-docs
 color_scheme: "nil"
 search_enabled: true
+heading_anchors: true
