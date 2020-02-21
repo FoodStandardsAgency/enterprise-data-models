@@ -1,3 +1,5 @@
+[](This entity model may be entirely unrequired, Not going to move to the docs until discussed whether we want this, or as adam suggested we skip straight to competent authority)
+
 ---
 layout: default
 title: Awarding-Body
@@ -5,7 +7,7 @@ nav_order: xx
 has_children: false
 ---
 
-This model was last updated on **04/02/2020**, this is version **0.2**
+This model was last updated on **19/02/2020**, this is version **0.2**
 
 Experimental
 {: .label .label-yellow }
@@ -25,7 +27,7 @@ Awarding Body is a property of `enrolments`.
 
 
 ## Unique Identifiers
-The preferred unique identifier for in the FSA is the scheme number which will include the name of the Awarding Body.
+There is not yet a preferred unique identifier for Awarding bodies in the FSA. Often the scheme number itself is used which will include the name of the Awarding Body. It is also acceptable to use the Competent authority code where relevant. If a register of awarding bodies is created this guidance will be updated to advise its use.
 
 ## What it is not
 This Enterprise Data Model is not intended to provide a total description of the responsibilities of the Awarding Body.
@@ -40,8 +42,5 @@ This Enterprise Data Model is not intended to provide a total description of the
 *   FSA Region (England, Wales, NI, UK Wide)
 
 ## Reference data
-[Awarding Body register](https://data.food.gov.uk/codes/)
+[Awarding Body register -Not yet built](https://data.food.gov.uk/codes/)
 [Schemes](schemes.md)
-
-## Further Information
-Start and End dates would be recorded on the registry entry and would be used to record creation and cessation of an Awarding Body.  

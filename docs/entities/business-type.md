@@ -5,7 +5,7 @@ nav_order: xx
 has_children: false
 ---
 
-This model was last updated on **06/02/2020**, this is version **0.1**
+This model was last updated on **19/02/2020**, this is version **0.2**
 
 Experimental
 {: .label .label-yellow }
@@ -27,7 +27,7 @@ For the context of the FSA each Establishment that operates within the food and 
 Each Business type will have a UID that will be linked to a business type, and descriptor.
 
 ## What it is not
-This Enterprise Data Model is not intended to list every type of business in the UK. It's focus is on food related businesses.
+Business type is only for business types within the food and feed sector. All other business types are a different entity and must be recorded as such
 
 ## Synonyms
 *   business sector
@@ -41,5 +41,4 @@ This Enterprise Data Model is not intended to list every type of business in the
 [Business Type](https://data.food.gov.uk/codes/business/unified-establishment-type)
 [Food Businesses Types linked to LAEMS types](https://data.food.gov.uk/catalog/datasets/6cb0295a-73c1-4a09-b3fe-b4a1ed039489)
 
-## Further Information
-Would it be worthwhile linking into DIT for this and providing Food Related Businesses and let DIT either add or build upon that so there is a single source of businesses for the UK?  We still need to make sure the food sector is well covered but possibly one to consider for later.
+[](would it be worthwhile linking into DIT for this and providing Food Related Businesses and let DIT either add or build upon that so there is a single source of businesses for the UK?  We still need to make sure the food sector is well covered but possibly one to consider for later.)

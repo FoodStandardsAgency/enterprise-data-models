@@ -5,7 +5,7 @@ nav_order: xx
 has_children: false
 ---
 
-This entity was last updated on **18/02/2020**. This is version **0.2**
+This entity was last updated on **20/02/2020**. This is version **0.3**
 
 Experimental
 {: .label .label-yellow }
@@ -27,9 +27,7 @@ Scheme - owned and delivered by Competent Authorities.  Schemes may not be deliv
 Local Authority
 
 ### What it is not
-This Enterprise Date Model is not intended to provide a total description of the responsibilities of a Competent Authority
-
-## Properties, identifiers and reference data
+This entity refers only to competent authorities as defined by the Food Standards agency within the Competent authority register, found below.
 
 ### Key properties
 
@@ -41,14 +39,14 @@ This Enterprise Date Model is not intended to provide a total description of the
 ### Contextual properties
 The key property fields are the minimum required for the Competent Authority entity, other fields may be added for implementation reasons eg type of authority but please avoid using other legacy fields such as additional reference numbers as this adds complexity.
 
-### Unique identifiers
 
 ### Reference data
 link to [Competent Authority register](https://data.food.gov.uk/codes/reference-number/_authority)
 
 ## External sources and further reading
+This section is under construction
 
-(**DN - Consider ref to - 'The use of Competent Authority Identifiers in FSA datasets' document**)
+[](**DN - Consider ref to - 'The use of Competent Authority Identifiers in FSA datasets' document**)
 
-Further reading may include links to policy or legislative documentation that was used as the basis for defining the model.)
-consider ref to CA doc
+[](Further reading may include links to policy or legislative documentation that was used as the basis for defining the model.
+consider ref to CA doc)
