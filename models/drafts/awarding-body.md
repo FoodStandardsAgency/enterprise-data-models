@@ -3,8 +3,10 @@
 ---
 layout: default
 title: Awarding-Body
-nav_order: xx
+nav_order: 1
 has_children: false
+parent: Entities
+categories: entity
 ---
 
 This model was last updated on **19/02/2020**, this is version **0.2**
