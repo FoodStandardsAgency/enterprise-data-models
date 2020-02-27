@@ -6,51 +6,58 @@ has_children: false
 ---
 # Scheme
 
-This model was last updated on **04/02/2020**, this is version **0.2**
+This model was last updated on **26/02/2020**, this is version **0.3**
 
 Experimental
 {: .label .label-yellow }
 
-##### Model created
+### Model created
 07/01/2020
 
-### Description
-A scheme is any piece of regulation, legislation or policy that grant or imposes powers to Competent Authorities to ensure food and feed safety.
+## Description
+A scheme is a way of classifying a piece of regulation, legislation, or policy that grants powers to and/or imposes obligations on those who are enrolled in it.
+
+Schemes commonly occur within a single domain or sub-domain in order to bind the context of the actions available to the scheme. For example, the `Approved Establishments Scheme` has a scope which is laid out by the piece of legislation that creates the scheme, which for now is [Regulation (EC) 853/2004](https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2004:139:0055:0205:EN:PDF).
 
 ### Related entities
-All Schemes are associated with a `competent authorities`
+A scheme has one or more `activities`, `interventions` or `enforcements` associated with it. Every one of these actions must be associated with a scheme, but the same action can appear in multiple schemes.
 
-`Enrolment` is essentially the parent entity of scheme.
+An `establishment` is enrolled in a scheme, not the individual premises or operator.
 
-An `establishment` can enroll in multiple schemes.
-
-Schemes can be managed and maintained by multiple `competent authorities`  For example FHRS is owned by the FSA but implemented and maintained by `Local Authorities`.
-
-
-### Unique Identifiers
-The preferred unique identifier for Enrolment in the FSA is the Scheme-Id.  The unique identifier should be the URI of the registry entry (this still need to be built).
-
-### What it is not
-Not all Scheme relate to schemes in approved establishments.
+Schemes can be owned, managed or carried out by multiple `Competent Authorities`. For example FHRS is owned by the FSA but carried out by Local Authorities.
 
 ### Synonyms
-*   Register number
-*   Scheme number
-*   Scheme Registration
+*   Policy
+*   Domain
+*   Area
 
-## Key Properties
-*   Unique Identifier (UID) that identifies the scheme.   
-*   Links to the appropriate awarding body.
+### What it is not
+A scheme is not a single piece of legislation or policy, it only becomes a scheme when there are activities, interventions or enforcements within the scope of the scheme.
+
+Some "schemes" run by trade bodies or other entities might be called a scheme, but they are not included for the purposes of defining the scheme entity. Some of these may even have an impact on policy areas, such as the frequency of some inspections can be affected by a producer being a member of the [Red Tractor Assurance Scheme](https://www.redtractor.org.uk/). Red Tractor is not a scheme in our model.
+
+## Properties, identifiers and reference data
+
+### Key properties
+We want to make sure schemes are handled consistently in services and databases, for this reason we will develop a register of schemes and publish it on the [FSA Registry](data.food.gov.uk/codes). The key properties from that register when storing the information in a table will be;
+
+*   The URI of the scheme
+*   The name of the scheme
+*   The code (notation) for the scheme
+
+### Contextual properties
+There are additional properties that may be useful in services but this is often on a scheme by scheme basis, these properties include;
+
+*   Geographical jurisdiction of the scheme
+*   Effective dates for the scheme to be active
+*   Specific product groups or establishments that the scheme relates to
+
+Schemes may also have their own specific entities which are activities, interventions or enforcements. For example, the FHRS inspection is a specific type of the inspection entity, and it's contextual properties are laid out in the documentation for the scheme. Where possible, these specific implementations of entities will be included in this documentation.
 
 ## Reference data
-*   Link to [FHRS scheme](https://ratings.food.gov.uk/)
-*   Link to [Competent Authorities register](https://data.food.gov.uk/codes/)
+A link to the first version of the scheme register will be updated once the register is built.
 
-## Further Information
-Membership of some schemes may impact on the frequency of inspections under official controls.
-Examples of enrolment into food assurance schemes include;
-*   [FHRS Scheme](https://ratings.food.gov.uk/)
-*   [Shellfish Classification Scheme](https://www.food.gov.uk/business-guidance/shellfish-classification).
-
-
-It is important to recognise that, ownership and administration of schemes can span different competent authorities and awarding bodies. For example; FHRS is an FSA owned scheme that is administered by Local Authorities.  The Food Standards Agency (FSA) maintains close contact with assurance schemes because of their potential to promote practices that contribute to recommended policy.
+## External references and further reading
+*   [Regulation (EC) 853/2004](https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2004:139:0055:0205:EN:PDF) known as the Approved Establishments Scheme
+*   The [Food Hygiene Ratings Scheme](https://www.food.gov.uk/safety-hygiene/food-hygiene-rating-scheme)
+*   The [Raw Cow's Drinking Milk](https://www.food.gov.uk/business-guidance/raw-cows-drinking-milk) policy
