@@ -1,9 +1,12 @@
 ---
 layout: default
 title: Scheme
-nav_order: xx
+nav_order: 8
 has_children: false
+parent: Entities
+categories: entity
 ---
+
 # Scheme
 
 This model was last updated on **26/02/2020**, this is version **0.3**
@@ -22,7 +25,9 @@ Schemes commonly occur within a single domain or sub-domain in order to bind the
 ### Related entities
 A scheme has one or more `activities`, `interventions` or `enforcements` associated with it. Every one of these actions must be associated with a scheme, but the same action can appear in multiple schemes.
 
-An `establishment` is enrolled in a scheme, not the individual premises or operator.
+An `establishment` is enrolled in a scheme, not the individual premises or operator, although in some existing services the enrolment is associated with one of those entities.
+
+An establishment can be enrolled in multiple schemes.
 
 Schemes can be owned, managed or carried out by multiple `Competent Authorities`. For example FHRS is owned by the FSA but carried out by Local Authorities.
 
