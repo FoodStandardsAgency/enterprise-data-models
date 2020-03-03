@@ -39,3 +39,5 @@ CREATE TABLE "PlantApprovalNumber" (
   "plant-approval-number" VARCHAR(9) NOT NULL
 );
 ```
+## Notes
+Analysis of the Approved food Establishments dataset at January 2020 has highlighted that there are a number of different formats in use, particularly in respect of Local Authority approved establishments, the longest of which is 12 characters long, therefore it may be necessary to amend the sql snippet above to `varchar(12)` in order to avoid validation errors occurring until such time as the format is consistent with the above
