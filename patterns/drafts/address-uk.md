@@ -19,9 +19,9 @@ Very Experimental
 
 An address is one of the most complex pieces of data that we use. The way we expect to read them, record them, and store them are different depending on the context.
 
-They are resilient to inaccuracy for their original use; going to a place or sending an item to a place. This resilience is because the processes in which they are commonly used are mostly manual. A postie knows their route, and with part of an address, or a mostly accurate address can deliver to that address successfully.
+They are resilient to inaccuracy for their original use; going to a place or sending an item to a place. This resilience is because the processes in which they are commonly used are mostly manual. A postman knows their route, and with part of an address, or a mostly accurate address can deliver to that address successfully.
 
-The same is true when traveling to an address, if the address is accurate enough people can find a location using context when they arrive. However as the world becomes more automated, good enough will no longer be good enough. A self driving car or drone needs exact information, it cannot use human intuition.
+The same is true when travelling to an address, if the address is accurate enough people can find a location using context when they arrive. However as the world becomes more automated, good enough will no longer be good enough. A self driving car or drone needs exact information, it cannot use human intuition.
 
 As an example, the first time one of the Data Team went to the [Foss House](https://goo.gl/maps/k1P6RtJ1jRWwXzV89) in York, they ended up walking to a nearby block of flats, also called [Foss House](https://goo.gl/maps/86EmNP4RWA4Lu6X37) because the mapping service being used did not know which Foss House was correct.
 
@@ -38,11 +38,11 @@ The Display version of the pattern is how we would display an address to our use
 The simple pattern is how an address should be stored when the additional information in the extended version is not required. This address pattern is not user friendly.
 
 #### Extended
-The extended version of the pattern is used when we want to record as much information about the address as possible. All addresses stored in the extended pattern must be checked for accuracy. This address pattern is not user friendly and an address should not be shown to our users in this format.
+The extended version of the pattern is used when we want to record as much information about the address as possible. All addresses stored in the extended pattern must be checked for accuracy. This address pattern is not user friendly and should not be shown to our users in this format.
 
-It is recommended that an address matching service is used when capturing address data from our users in order to ensure the information we are recording is accurate. For more information about what address matching service should be used, and how to use it please contact the Technical Design Authority.
+It is recommended that an address matching service is used when capturing address data from our users in order to ensure the information we are recording is accurate. For more information about the address matching service to be used, and how to use it please contact the Technical Design Authority.
 
-For the patterns in this document, it is assumed that the address matching service used is `TBD`, If an alternate service has been used please modify the patterns, as detailed in each section, to match your address matching service.
+For the patterns in this document, it is assumed that the address matching service used is `TBD`, If an alternate service has been used please modify the patterns, as detailed in each section, to match the address matching service used.
 
 ### Display format
 
