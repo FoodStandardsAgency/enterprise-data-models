@@ -36,5 +36,13 @@ In Scotland and Northern Ireland they are six numbers prefixed by `SC` or `NI` r
 
 Companies registered with the [Charity Commission](https://www.gov.uk/government/organisations/charity-commission) or the [Financial Conduct Authority](https://register.fca.org.uk/ShPo_HomePage) can have a registration number in a different format, but all of them should fit within an 8 character string.
 
+### SQL
+```sql
+CREATE TABLE IF NOT EXISTS company
+(
+  CompanyRegistrationNumber varchar(8)
+);
+```
+
 ### References
 [This gist](https://gist.github.com/drkane/ef0c41aa19275a6c7cf1f3fff00356e6) will be of use if you want to know more about the possible patterns for company registration numbers and their meaning.

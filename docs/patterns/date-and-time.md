@@ -85,3 +85,14 @@ However, some changes do not constitute a material change. In the above example 
 | FSA | Aviation House | 1000 | 2010-04-01 | 2017-12-31 ||
 | FSA | Clive House | 1200 | 2018-01-01 |||
 | FSA | Clive House | 1170 | 2018-01-01 || 2020-04-01 |
+
+
+### SQL
+```sql
+CREATE TABLE IF NOT EXISTS Time
+(
+  start-date datetime,
+  end-date datetime,
+  change-date datetime
+);
+```

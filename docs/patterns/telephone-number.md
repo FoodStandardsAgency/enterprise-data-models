@@ -54,3 +54,11 @@ FSA use telephone numbers primarily to send alerts using the gov.uk Notify servi
 -   [Guidance regarding autocompletion of fields](https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html)
 -   [MojoLingo - Handling Phone Numbers: Best Practices for Developers](https://mojolingo.com/blog/2015/best-practices-handling-phone-numbers/)
 -   [What data type would you use to store a phone number](https://teamtreehouse.com/community/what-data-type-would-you-use-to-store-a-phone-number)
+
+### SQL
+```sql
+CREATE TABLE IF NOT EXISTS Telephone
+(
+  telephone varchar(20)
+);
+```
