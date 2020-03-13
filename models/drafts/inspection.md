@@ -8,7 +8,7 @@ categories: entity
 ---
 
 # `Inspection`
-This model was last updated on **13/03/2020**, this is version **0.3**
+This model was last updated on **13/03/2020**, this is version **0.4**
 
 Experimental
 {: .label .label-yellow }
