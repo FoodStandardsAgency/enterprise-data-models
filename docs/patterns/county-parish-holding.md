@@ -9,7 +9,7 @@ categories: pattern
 
 # County Parish Holding Number
 
-This pattern was last updated **20/02/2020**, this is version **1.0**
+This pattern was last updated **20/02/2020**, this is version **2.0**
 
 Stable
 {: .label .label-green }
@@ -21,11 +21,13 @@ Stable
 ## Description
 The County Parish Holding number identifies one or more parcels of land, which when grouped together form a holding.
 
-In the FSA it exists solely for the purposes of linking with data from external sources, including (but not limited to);
+In the FSA it is used for the purposes of linking with data from external sources, including (but not limited to);
 -   Animal and Plant Health Agency
 -   Red Tractor Farm Assurance
 -   Environment Agency
 -   Public Health England
+
+The County Parish Holding Number is the reference number used when communicating with Dairy Food Business Operators. The FSA allocated `Producer ID` associated with registered Dairy FBOs is only used internally.
 
 ## Field formats, data types, and patterns
 When working with the CPHN in the FSA our preferred pattern to split the CPHN in to three separate fields;
