@@ -9,10 +9,10 @@ categories: pattern
 
 # Plant Approval Number
 
-This pattern was last updated **27/02/2020**, this is version **0.1**
+This pattern was last updated **18/03/2020**, this is version **1.0**
 
-Experimental
-{: .label .label-yellow }
+Stable
+{: .label .label-green }
 
 ### Pattern created
 
@@ -36,8 +36,8 @@ Local Authorities as Competent Authorities approve Cold Stores, Meat Processing 
 ### SQL snippet
 ```sql
 CREATE TABLE "PlantApprovalNumber" (
-  "plant-approval-number" VARCHAR(9) NOT NULL
+  "plant-approval-number" VARCHAR(12) NOT NULL
 );
 ```
 ## Notes
-Analysis of the Approved food Establishments dataset at January 2020 has highlighted that there are a number of different formats in use, particularly in respect of Local Authority approved establishments, the longest of which is 12 characters long, therefore it may be necessary to amend the sql snippet above to `varchar(12)` in order to avoid validation errors occurring until such time as the format is consistent with the above
+Analysis of the Approved food Establishments dataset at January 2020 has highlighted that there are a number of different formats in use, particularly in respect of Local Authority approved establishments, the longest of which is 12 characters long.
