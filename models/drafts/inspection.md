@@ -19,7 +19,18 @@ Experimental
 
 ## Description
 
-Inspections are the examination of any aspect of food or of a food business in order to check that such aspect(s) comply with the legal requirements of food law.  Inspections are a type of `Intervention`.
+Inspections are a type of intervention. They most frequently are used to examine establishments and the processes therein
+
+
+
+happens at a place on a date by a person
+inspecting against a set of criteria outlined in a scheme
+combination of the scheme, premises and context
+you can either inspect the establishment or just the operator/ premises
+
+
+
+ examination of any aspect of food or of a food business in order to check that such aspect(s) comply with the legal requirements of food law.
 
 Types of inspection include the following
 -   Food chain Inspection (FCI)
