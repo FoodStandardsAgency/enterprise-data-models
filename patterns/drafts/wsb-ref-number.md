@@ -22,7 +22,7 @@ Stable
 The Wine Standards Board (WSB) reference number is allocated to a registered Food Business Operator (FBO) once wine activities have been registered.  The WSB Reference Number is used to record activities and interventions associated with the FBO eg used to record Inspection outcomes.
 
 ## Field formats, data types, and patterns
-The format for the WSB reference number is 5 numerical digits, however, older references may have fewer digits eg 73752, 4462, 753.  leading zeros are not used to pad out the number.
+The format for the WSB reference number is 5 numerical digits, however, older references may have fewer digits eg 73752, 4462, 753.  Leading zeros are not used to pad out the number.
 
 ### SQL snippet
 ```sql
