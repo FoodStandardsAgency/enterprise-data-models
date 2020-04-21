@@ -52,7 +52,7 @@ Services can handle most needs by using the following:
 -   xxxx-end-date
 -   xxxx-change-date
 
-Where xxxx describes the thing (verb or noun) that the start date represents, if its necessary to use more than one word to describe the thing then each word should be seperated by a hyphen. This is required to help identify different types of dates that will need to be recorded and used accross platforms. This is also necessary for linked data purposes where we need to identify what set of dates are being referred to.
+Where xxxx describes the thing or event that the start date represents, if it's necessary to use more than one word to describe the thing, then each word should be seperated by a hyphen. This is required to help identify different types of dates that will need to be recorded and used accross platforms. This is also necessary for linked data purposes where we need to identify what set of dates are being referred to.
 
 ### Start date
 At the FSA, we use start date. When used as a field name it should be recorded as xxxx-start-date, other names for the start of an event or record are unacceptable even when the business term is different.
@@ -64,7 +64,7 @@ At the FSA, we use start date. When used as a field name it should be recorded a
 Your service can and should present the field by it's accepted domain name if that term is so well-established in the legislation or policy of that domain, but field conventions need to remain consistent across services.
 
 ### End date
-We use end date to signify the end of an event. When used as a field name it should be recorded as end-date.
+We use end date to signify the end of an event. When used as a field name it should be recorded as xxxx-end-date.
 
 Like start date, your service can present the field by it's accepted domain name if that term is canonical.
 
@@ -74,7 +74,7 @@ Like start date, your service can present the field by it's accepted domain name
 
 ### Change date
 
-We use change date to signify a change to an event or record that does not change the nature of the item enough to justify giving the item an end date and creating a new item. For example if an entry for a school has an update to the head teacher field, it is still the same school thus the same item. However we needed to record a change to the item and the date the change occurred. When used as a field name it should be recorded as change-date, other names for this field are unacceptable
+We use change date to signify a change to an event or record that does not change the nature of the item enough to justify giving the item an end date and creating a new item. For example if an entry for a school has an update to the head teacher field, it is still the same school thus the same item. However we needed to record a change to the item and the date the change occurred. When used as a field name it should be recorded as xxxx-change-date, other names for this field are unacceptable
 
 #### Example change dates
 -   food-business-change-date
