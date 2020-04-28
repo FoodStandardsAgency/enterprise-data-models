@@ -25,7 +25,7 @@ The Welfare Reference number is used as a unique identifier for animal welfare i
 These incidents are also recorded on Chronos which generates a common Chronos incident number, however the APHA use the OV generated reference number for their investigations and for communications back to the FSA.
 
 ## Field formats, data types, and patterns
-The Welfare Reference Number is made up of three parts separated by forward slashes with no spaces.  A four digit [Plant Approval Number](https://github.com/FoodStandardsAgency/enterprise-data-models/blob/master/docs/patterns/plant-approval-number.md), followed by a numeric representation of the date in format ddmmyy, followed by 4 numerical digits representing the time of the incident - NNNN/NNNNNN/NNNN eg 3456/280420/0830.
+The Welfare Reference Number is made up of three parts separated by forward slashes with no spaces.  A four digit [Plant Approval Number](https://github.com/FoodStandardsAgency/enterprise-data-models/blob/master/docs/patterns/plant-approval-number.md), followed by a numeric representation of the date in format ddmmyy, followed by 4 numerical digits representing the time of the incident - NNNN/ddmmyy/NNNN eg 3456/280420/0830.
 
 ### Regex validation
 
@@ -33,7 +33,7 @@ The Welfare Reference Number is made up of three parts separated by forward slas
 
 ### SQL snippet
 ```sql
-CREATE TABLE "welfareReferenceNumber" (
+CREATE TABLE welfareReferenceNumber (
   welfare-reference-number    VARCHAR(16)
 );
 ```
