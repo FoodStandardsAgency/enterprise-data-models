@@ -24,6 +24,9 @@ Examples activities include;
 *   The list of activities which fall under the legislation of [approved food establishments](https://data.food.gov.uk/codes/business/_approved-food-establishments)
 *   The list of activities which fall under the regulations for [animal feed](https://data.food.gov.uk/codes/business/animal-feed-establishments/_feed-activities)
 
+### Entity diagram
+![Activity](/enterprise-data-models/entities/diagrams/Activity.png)
+
 ### Related entities
 All activities belong to a [scheme](/enterprise-data-models/entities/scheme.html), but a [scheme](/enterprise-data-models/entities/scheme.html) is not the parent entity as they do not share a set of key properties.
 

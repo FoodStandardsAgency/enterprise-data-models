@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Person
-nav_order: 5
+nav_order: xx
 has_children: false
 parent: Patterns
 categories: pattern
@@ -32,7 +32,6 @@ FSA approval for Slaughterhouses and Cutting Plants using the following formats
 ### Local Authority approved
 Local Authorities as Competent Authorities approve Cold Stores, Meat Processing Plants, Meat Producers etc using the following format
 -   Two digit alpha characters, followed by a space and 3 numeric digits in the format AA NNN
-
 
 ## Notes
 Analysis of the Approved food Establishments dataset at January 2020 has highlighted that there are a number of different formats in use, particularly in respect of Local Authority approved establishments, the longest of which is 12 characters long.

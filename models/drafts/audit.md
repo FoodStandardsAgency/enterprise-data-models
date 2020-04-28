@@ -31,8 +31,6 @@ These high level types of Audit can be sub-categorised further
 *   Partial audit (on part of a system) These are usually done due to time pressures so an audit be broken up into separate visits each visit will focus on a specific area with the intention of auditing the complete system over a set period of time.
 *   Financial audit -  is assessing the financial health of a business the FSA. Internal auditors look for unauthorized spending, misallocated expenses and other accounting errors. They compare each department's spending against the annual budget.
 
-
-
 ### Entity diagram
 ![Audit](/enterprise-data-models/entities/diagrams/Audit.png)
 
