@@ -30,6 +30,11 @@ The preferred unique identifier for Person depends on the system they interact w
 *   Food Business Operator (FBO)
 *   Haulier
 *   Slaughterer
+*   Retailer
+*   Butcher
+*   Baker
+*   Farmer
+*   Importer
 *   Consumer
 *   Third Party Developer
 *   Inspector
@@ -42,8 +47,7 @@ The preferred unique identifier for Person depends on the system they interact w
 *   First name
 *   Surname
 *   Organisation
-*   Phone number
-*   Email address
+
 
 ### Owner
 Food Standards Agency

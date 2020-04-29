@@ -27,11 +27,18 @@ When collating and storing information on people its important to ensure that th
 The fields and data types required will be dependent on the system and the relationship the person has with the FSA.
 
 ### FSA Staff
-By putting an email address through O365, you can retrieve the relevant information for staff members including name, role, line manager and contact details.  Many systems built from O365 tools should be able to retrieve any additional information using this piece of information.  Indeed this could be automated to the point so that when a user navigates to a page or app that their Microsoft credentials are automatically captured and used to login.
+By putting an email address through Microsoft Office 365 (O365), you can retrieve the relevant information for staff members including name, role, line manager and contact details.  Many systems built from O365 tools should be able to retrieve any additional information using this piece of information.  Indeed this could be automated to the point so that when a user navigates to a page or app that their Microsoft credentials are automatically captured and used to login.
 
-| Field | Field Type |
+FSA email addresses are typically firstname.surname@food.gov.uk however on occasion we can have staff with the same name and these can be differentiated in a number of ways.  Please see table below for some examples of how an email address can be changed for someone with the name James O'Neill.
+
+| Email | Change |
 |--------------|--------|
-| FSA E-mail | firstname.surname@food.gov.uk |
+| james.o'neill@food.gov.uk |  |
+| james.o'neill1@food.gov.uk | Added a number after the sirname |
+| james.oneill@food.gov.uk | removed the apostrophe after the O |
+| jim.o'neill@food.gov.uk| Shortened first name from James to Jim |
+
+
 
 ### Contractors / Competent Authority Representative
 If the contractors have an FSA account you can just record their FSA email address.  If the contractors doesn't have an FSA email address the following will be required
@@ -63,5 +70,3 @@ If the contractors have an FSA account you can just record their FSA email addre
 
 ## Notes
 Some systems will require more fields, the information that is captured is dependent on the system and the person involved.
-
-Other useful fields to include is
