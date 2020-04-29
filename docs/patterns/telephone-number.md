@@ -10,7 +10,7 @@ categories: pattern
 ---
 
 # Telephone Number
-This pattern was last updated 13/02/2020, this is version 1.0
+This pattern was last updated 29/04/2020, this is version 1.1
 
 Stable
 {: .label .label-green }
