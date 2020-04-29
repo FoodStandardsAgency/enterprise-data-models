@@ -16,7 +16,7 @@ Experimental
 ### Description
 All systems at the FSA have a person involved at one stage or another, some are FSA staff, others are external stakeholders employed by the FSA to carry out tasks, others are interested parties.
 
-When collating and storing information on people its important to ensure that there is a privacy impact assessment in place and if not one created, and that the appropriate amount of information is collected and that it is collated for a specific purpose.
+When collating and storing information on people it is important to ensure that there is a privacy impact assessment in place and if not, one created.  The information collected should be appropriate and required for a specific reason.
 
 ### Unique Identifiers
 The preferred unique identifier for Person depends on the system they interact with.
@@ -29,7 +29,7 @@ The preferred unique identifier for Person depends on the system they interact w
 *   Official Veterinarian (OV)
 *   Food Business Operator (FBO)
 *   Haulier
-*   Slaughterman
+*   Slaughterer
 *   Consumer
 *   Third Party Developer
 *   Inspector
@@ -40,7 +40,7 @@ The preferred unique identifier for Person depends on the system they interact w
 
 ## Key Properties
 *   First name
-*   Sir name
+*   Surname
 *   Organisation
 *   Phone number
 *   Email address
