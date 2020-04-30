@@ -9,7 +9,7 @@ categories: pattern
 
 # Address (UK)
 
-This pattern was last updated 06/03/2020, this is version 0.6.
+This pattern was last updated 30/04/2020, this is version 0.7.
 
 Very Experimental
 {: .label .label-yellow }
@@ -37,7 +37,7 @@ Because of this complexity there are three versions of the address pattern;
 The Display version of the pattern is how we would display an address to our users. This version of the pattern matches what you would expect an address to look like and is the most human friendly.
 
 #### Simple
-The simple pattern is how an address should be stored when the additional information in the extended version is not required. This address pattern is not user friendly.
+The simple pattern is how an address should be stored when the additional information in the extended version is not required. This address pattern is not user friendly. Some of the fields used will only apply when referencing a business address i.e. Organisation name but should still be included even if no businesses are currently in the list to allow flexibility if this changes in the future.
 
 #### Extended
 The extended version of the pattern is used when we want to record as much information about the address as possible. All addresses stored in the extended pattern must be checked for accuracy. This address pattern is not user friendly and should not be shown to our users in this format.
@@ -93,6 +93,9 @@ The simple format is how an address should be stored within a database for proto
 | Field Name | Description  | Required | Can be NULL |
 |:-----------|:-------------|:---------|:------------|
 | UPRN | The UPRN is the unique property reference number for an address, more information can be found in the UPRN pattern | No | Yes |
+| Organisation Name | Organisation Name for the delivery point at an address | No | Yes |
+| Department Name | Department name for an address, can only be used when organisation name is not null | No | Yes |
+| Sub Building Name | the sub building name or number for a property | No | Yes |
 | Building Name | The name of a building | Yes | Yes |
 | Building Number | The number of a building | Yes | Yes |
 | Dependent Thoroughfare | A dependent thoroughfare, are named thoroughfares within another named thoroughfare. | No | Yes |
@@ -113,6 +116,9 @@ This SQL will generate the simple pattern, it has been written for Postgres so c
 CREATE TABLE IF NOT EXISTS simple
 (
   UPRN                                 FLOAT8,
+  ORGANISATION_NAME               VARCHAR(60),
+  DEPARTMENT_NAME                 VARCHAR(60),
+  SUB_BUILDING_NAME               VARCHAR(30),
   BUILDING_NAME                   VARCHAR(50),
   BUILDING_NUMBER                 NUMERIC(4,0),
   DEPENDENT_THOROUGHFARE          VARCHAR(80),
