@@ -28,26 +28,24 @@ Alerts are the formal process for official communications and approved actions a
 Alerts are not incidents, they are the formal external communications resulting from an incident.
 
 ### Unique Identifiers
-The preferred unique identifier for Alerts in the FSA is the
-FSA-AA-NNN-YYYY
-FSA-PRIN-NNN-YYYY
-FSA-FAFA-NNN-YYYY.
+The preferred unique identifier for Alerts in the FSA is the [Alert Number](/enterprise-data-models/patterns/alert.md)  Details on the format and composition of the [alert number](/enterprise-data-models/patterns/alert.md) can be found in the link.
+
 
 ### Synonyms
 *   Notifications
 *   Alergy alerts
-*   FAFA
-*   PRIN
+*   Allergen Alerts (AA)
+*   Product recall information notice (PRIN)
+*   Food Alert for Action (FAFA)
 
 ## Key Properties
 *   Alert Number
 *   Date of Issue
 
-
 ## Reference data
 *   [Alerts Definitions](https://data.food.gov.uk/codes/alerts/_def)
-*   [Memex](Incidents system)
-*   [Templates](link to template on DWP)
+*   Memex
+*   [Templates](https://foodgov.sharepoint.com/consumerprotection/Pages/Standard-Operating-Procedures-(SOP)-for-Incidents.aspx)
 
 ## Further Information
 *   [Summary of Incident Notifications received by the Food Standards Agency](https://data.food.gov.uk/catalog/datasets/f0db1a56-1088-4199-9e42-ddcde2546237)

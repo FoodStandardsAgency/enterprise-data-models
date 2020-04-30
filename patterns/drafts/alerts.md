@@ -27,10 +27,21 @@ Alerts are the formal process for official communications and approved actions a
 *   Food Alert for Action - where a competent authority has the powers to seize described items or carry out a prescribed action.
 
 ## Field formats, data types, and patterns
-Alerts reference number is dependent on the type of alert that is issued
-*   **Allergen Alerts** would follow the following pattern **FSA-AA-NNN-YYYY**
-*   **Product recall information notice** would follow the following pattern **FSA-PRIN-NNN-YYYY**
-*   **Food Alert for Action** would follow the following pattern **FSA-FAFA-NNN-YYYY**
+Alerts reference number is dependent on the type of alert that is issued but follow the following 15-17 character format
+
+*   FSA (Issuing Authority abbreviation)
+*   Hyphen
+*   Type of alert abbreviation Listed below
+*   Hyphen
+*   NNN Three digit numbers, this is sequential and resets each year.
+*   Hyphen
+*   YYYY - Year the alert was issued displayed as a four character number
+
+###Type of Alerts and example of format
+
+*   **Allergen Alerts (AA)** would follow the following pattern **FSA-AA-NNN-YYYY**
+*   **Product recall information notice (PRIN)** would follow the following pattern **FSA-PRIN-NNN-YYYY**
+*   **Food Alert for Action (FAFA)** would follow the following pattern **FSA-FAFA-NNN-YYYY**
 
 
 ### Additional information
