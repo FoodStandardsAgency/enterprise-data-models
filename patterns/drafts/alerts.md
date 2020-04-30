@@ -1,7 +1,7 @@
 ---
 layout: default
-title: County Parish Holding
-nav_order: 3
+title: Alerts
+nav_order: ##
 has_children: false
 parent: Patterns
 categories: pattern
