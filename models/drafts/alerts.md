@@ -14,10 +14,10 @@ Experimental
 29/04/2020
 
 ### Description
-Alerts are the formal process for official communications and approved actions as a result from a food or feed incident.  This can take one of three forms
+Alerts are the formal process for official communications and approved actions as a result from a food or feed incident.  This can take one of three forms:
 
-*   Allergen Alerts - informing consumers that a food item could contain ingredients that are not listed on the allergen label
-*   Product recall information notice - such as a product recall for businesses, and consumers to check a product and not to consume if it falls within certain parameters
+*   Allergen Alerts - informing consumers that a food item could contain ingredients that are not listed on the allergen label.
+*   Product recall information notice - such as a product recall for businesses, and consumers to check a product and not to consume if it falls within certain parameters.
 *   Food Alert for Action - where a competent authority has the powers to seize described items or carry out a prescribed action.
 
 

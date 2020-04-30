@@ -20,20 +20,20 @@ Experimental
 30/04/2020
 
 ## Description
-Alerts are the formal process for official communications and approved actions as a result from a food or feed incident.  This can take one of three forms
+Alerts are the formal process for official communications and approved actions as a result from a food or feed incident.  This can take one of three forms:
 
 *   Allergen Alerts - informing consumers that a food item could contain ingredients that are not listed on the allergen label
 *   Product recall information notice - such as a product recall for businesses, and consumers to check a product and not to consume if it falls within certain parameters
 *   Food Alert for Action - where a competent authority has the powers to seize described items or carry out a prescribed action.
 
 ## Field formats, data types, and patterns
-Alerts reference number is dependent on the type of alert that is issued but follow the following 15-17 character format
+Alerts reference number is dependent on the type of alert that is issued but follow the following 15-17 character format.
 
 *   FSA (Issuing Authority abbreviation)
 *   Hyphen
 *   Type of alert abbreviation Listed below
 *   Hyphen
-*   NNN Three digit numbers, this is sequential and resets each year.
+*   NNN Three digit numbers, this is sequential and resets each year
 *   Hyphen
 *   YYYY - Year the alert was issued displayed as a four character number
 
