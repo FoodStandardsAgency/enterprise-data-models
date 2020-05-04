@@ -16,9 +16,9 @@ Experimental
 ### Description
 Alerts are the formal process for official communications and approved actions as a result from a food or feed incident.  This can take one of three forms:
 
-*   Allergen Alerts - informing consumers that a food item could contain ingredients that are not listed on the allergen label.
-*   Product recall information notice - such as a product recall for businesses, and consumers to check a product and not to consume if it falls within certain parameters.
-*   Food Alert for Action - where a competent authority has the powers to seize described items or carry out a prescribed action.
+*   Allergen Alerts (AA) - informing consumers that a food item could contain ingredients that are not listed on the allergen label.
+*   Product recall information notice (PRIN) - such as a product recall for businesses, and consumers to check a product and not to consume if it falls within certain parameters.
+*   Food Alert for Action (FAFA) - where a competent authority has the powers to seize described items or carry out a prescribed action.
 
 
 ### Entity diagram
@@ -33,7 +33,7 @@ The preferred unique identifier for Alerts in the FSA is the [Alert Number](/ent
 
 ### Synonyms
 *   Notifications
-*   Alergy alerts
+*   Allergy alerts
 *   Allergen Alerts (AA)
 *   Product recall information notice (PRIN)
 *   Food Alert for Action (FAFA)
