@@ -8,7 +8,7 @@ categories: entity
 ---
 # Competent Authority
 
-This entity was last updated on **20/02/2020**. This is version **0.3**
+This entity was last updated on **22/05/2020**. This is version **0.4**
 
 Experimental
 {: .label .label-yellow }
@@ -23,6 +23,9 @@ Competent Authorities deliver food and feed official controls. The FSA is the Ce
 
 ### Related entities
 A [scheme](/enterprise-data-models/entities/scheme.html) is owned and delivered by Competent Authorities, however schemes may be owned and delivered by different competent authorities i.e., FHRS.
+
+### Entity diagram
+![Competent Authority](/enterprise-data-models/entities/diagrams/CompetentAuthority.png)
 
 ### Synonyms
 *   Local Authority

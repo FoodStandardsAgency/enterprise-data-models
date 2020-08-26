@@ -7,7 +7,7 @@ parent: Patterns
 categories: pattern
 ---
 
-# `Producer ID`
+# Producer ID
 
 This pattern was last updated **17/03/2020**, this is version **1.0**
 
@@ -23,7 +23,7 @@ The Producer ID is allocated to a registered Dairy Food Business Operator (FBO) 
 
 ## Field formats, data types, and patterns
 
-The format for new Producer ID is 5 numerical digits, however, older references may have fewer digits eg 12345, 2212, 742.
+The format for new Producer ID is 5 numerical digits, however, older references may have fewer digits eg `12345`, `2212`, `742`.
 
 ### Notes
 

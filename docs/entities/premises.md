@@ -24,6 +24,9 @@ Premises is a fundamental concept related to food businesses. All food businesse
 
 [Operator](/enterprise-data-models/entities/operator.html) is the sibling of premises, and when they are combined create an establishment, but not all operators are associated with a premises.
 
+### Entity diagram
+![premises](/enterprise-data-models/entities/diagrams/premises.png)
+
 ### Synonyms
 -   Location
 -   Address

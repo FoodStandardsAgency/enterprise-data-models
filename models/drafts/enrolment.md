@@ -19,6 +19,10 @@ Enrolment is an FSA record of an Establishment to register or seek approval to p
 ### Unique Identifiers
 The preferred unique identifier for Enrolment in the FSA is the enrolment reference number
 
+### Entity diagram
+![enrolement](/enterprise-data-models/entities/diagrams/Enrolement.png)
+
+
 ### What it is not
 Not all reference numbers relate to activities or schemes.
 
@@ -43,6 +47,10 @@ Not all reference numbers relate to activities or schemes.
 *   Enrolments are concurrent and consecutive.  They have a start and end date and cannot be modified. If an establishment is removed from a scheme the status will be changed appropriately and an end date will be recorded.  Establishments can request to re-enroll provided they meet the criteria.  New enrollment documentation will be required and a new UID will be generated.
 *   Link to the [FHRS scheme](https://ratings.food.gov.uk/)
 *   Link to the [shellfish classification scheme](https://www.food.gov.uk/business-guidance/shellfish-classification).
+
+## Entity model
+
+
 
 ### Owner
 Food Standards Agency

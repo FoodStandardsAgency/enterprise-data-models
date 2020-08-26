@@ -31,6 +31,9 @@ Activities should be joined to an [establishment](/enterprise-data-models/entiti
 
 An [establishment](/enterprise-data-models/entities/establishment.html) which undertakes activities does so under a [scheme](/enterprise-data-models/entities/scheme.html) which grants them approval to do them or registers them as doing them. The combination of [establishment](/enterprise-data-models/entities/establishment.html) and [scheme](/enterprise-data-models/entities/scheme.html) is known as an `enrolment`.
 
+### Entity diagram
+![activity](/enterprise-data-models/entities/diagrams/Activity.png)
+
 ## Synonyms
 *   Approved activity
 *   Business activity

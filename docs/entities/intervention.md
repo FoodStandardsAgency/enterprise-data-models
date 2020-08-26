@@ -35,6 +35,9 @@ Interventions form part of a [scheme](/enterprise-data-models/entities/scheme.ht
 
 An intervention happens to an [establishment](/enterprise-data-models/entities/establishment.html), [premises](/enterprise-data-models/entities/premises.html), [operator](/enterprise-data-models/entities/operator.html) or a `person` depending on the specific intervention action.
 
+### Entity diagram
+![intervention](/enterprise-data-models/entities/diagrams/Intervention.png)
+
 ### Synonyms
 *   Audit
 *   Sampling

@@ -24,6 +24,9 @@ The operator can be a natural person or a legal person and we sometimes use thes
 ### Related entities
 As the Operator can be a legal entity, such as a limited company, it is not always correct to use the Operator entity if you were building an inspection service for example. It can sometimes be necessary to identify a separate `contact` entity so that when the Inspector arrives at the premises they ask for a the person they need to speak to and not the name of someone at head office or in a Companies House listing.
 
+### Entity diagram
+![operator](/enterprise-data-models/entities/diagrams/operator.png)
+
 ### Synonyms
 -   Food Business Operator
 -   Trader

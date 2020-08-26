@@ -27,6 +27,10 @@ Enforcement can happen to an [establishment](/enterprise-data-models/entities/es
 
 Enforcement action is often the result of unsuccessful [interventions](/enterprise-data-models/entities/intervention.html), but not always.
 
+### Entity diagram
+![enforcement](/enterprise-data-models/entities/diagrams/Enforcement.png)
+
+
 ### Synonyms
 *   litigation
 *   prosecution

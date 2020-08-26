@@ -17,7 +17,7 @@ Experimental
 10/03/2020
 
 ## Description
-In the UK, official feed and food laboratories are Public and Agricultural Analyst and Microbiology laboratories (Food Examiners) that undertake work for Local Authorities or undertaking Official Controls in specified areas for the Food Standards Agency (FSA), Food Safety Scotland (FSS) and Local Authorities.
+In the UK, official feed and food laboratories are Public and Agricultural Analyst and Microbiology laboratories (Food Examiners) that undertake work for Local Authorities or undertaking Official Controls in specified areas for the Food Standards Agency (FSA), and Local Authorities.
 
 Official laboratories must employ staff who possess qualifications which are defined by national legislation. In addition, laboratories must have a Public / Agricultural Analyst (formally appointed by a Local Authority) or a qualified Food Examiner in order to be designated as an Official Control Laboratory.
 
