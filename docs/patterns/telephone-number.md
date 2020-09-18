@@ -10,7 +10,7 @@ categories: pattern
 ---
 
 # Telephone Number
-This pattern was last updated 29/04/2020, this is version 1.1
+This pattern was last updated 18/09/2020, this is version 1.2
 
 Stable
 {: .label .label-green }
@@ -41,6 +41,13 @@ A field length of 20 would allow for the following examples plus other internati
 ## Notes
 
 FSA use telephone numbers primarily to send alerts using the gov.uk Notify service.  Please see the relevant API documentation available through the reference below.
+
+### SQL snippet
+```sql
+CREATE TABLE IF NOT EXISTS Telephone_number (
+    Telephone_number    VARCHAR(20)
+);
+```
 
 ### References
 -   [International standards for telephone number formats](https://en.wikipedia.org/wiki/E.164)
