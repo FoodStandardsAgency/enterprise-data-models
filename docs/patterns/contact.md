@@ -33,10 +33,20 @@ Last name
 Telephone number
 Email address
 
-Other optional elements such as Title, Address, Organisation, Job Role may be added if required.
+Other optional elements may be added if required, these could include the following:
+
+Title
+Address
+Organisation
+Job Role
+Notes
+Communication preferences
+
 
 ###Notes
-Email validation is actually broken down into the two elements before and after the `@` sign.  The first element is restricted to 64 characters and the second element 255 characters, however in practise most email address are less than 40 characters.  
+Email validation is actually broken down into the two elements before and after the `@` sign.  The first element is restricted to 64 characters and the second element 255 characters, however in practise most email address are less than 50 characters.  
+
+It is recommended that contact information is reviewed periodically to ensure that personal information is relevant and up to date.  This may also necessitate the addition of other fields such as start and end dates or review dates
 
 ### SQL snippet
 ```sql
