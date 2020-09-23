@@ -9,14 +9,14 @@ categories: pattern
 
 # Charity Commission Number
 
-This pattern was last updated **18/09/2020**, this is version **0.1**
+This pattern was last updated **23/09/2020**, this is version **1.0**
 
-Experimental
-{: .label .label-yellow }
+Stable
+{: .label .label-green }
 
 ### Pattern created
 
-18/09/02
+18/09/2020
 
 ## Description
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Company Registration Number
-nav_order: 2
+nav_order: 3
 has_children: false
 parent: Patterns
 categories: pattern

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Contact
-nav_order: 2
+nav_order: 4
 has_children: false
 parent: Patterns
 categories: pattern
@@ -9,10 +9,10 @@ categories: pattern
 
 # Contact
 
-This pattern was last updated **18/09/2020**, this is version **0.1**
+This pattern was last updated **23/09/2020**, this is version **1.0**
 
-Experimental
-{: .label .label-yellow }
+Stable
+{: .label .label-green }
 
 ### Pattern created
 
